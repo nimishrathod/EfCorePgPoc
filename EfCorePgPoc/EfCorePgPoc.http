@@ -1,0 +1,6 @@
+@EfCorePgPoc_HostAddress = http://localhost:5174
+
+GET {{EfCorePgPoc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

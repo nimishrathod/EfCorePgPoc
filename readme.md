@@ -239,10 +239,6 @@ This project was inspired by practical patterns for combining EF Core with Postg
 
 This is a proof-of-concept project for learning purposes.
 
-## 📝 License
-
-This project is open source and available for educational purposes.
-
 ## 🙏 Acknowledgments
 
 Built as a practical implementation guide for developers exploring the intersection of EF Core and PostgreSQL's native capabilities.

@@ -44,7 +44,7 @@ BEGIN
     select quantity, available_quantity
     into v_qty, v_avail
     from ticketing.ticket_types
-    where id = p_ticket_type_id
+    where "Id" = p_ticket_type_id
     for update;
 
     if NOT FOUND THEN
@@ -63,6 +63,6 @@ BEGIN
 
     update ticketing.ticket_types
     set available_quantity = v_new_avail
-    where Id = p_ticket_type_id;
+    where "Id" = p_ticket_type_id;
 END;
 $$;
